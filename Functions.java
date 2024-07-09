@@ -93,8 +93,8 @@ public class Functions {
                     //1.4
                     String presetsString [] = generationPresetString.split(",");
 
-                    g1.setSnakeProbability(Math.max(Math.min(Double.parseDouble(presetsString[0]), .5), 0));
-                    g1.setLadderProbability(Math.max(Math.min(Double.parseDouble(presetsString[1]), .5), 0));
+                    g1.setSnakeProbability(Math.max(Math.min(Double.parseDouble(presetsString[0]), .4), 0));
+                    g1.setLadderProbability(Math.max(Math.min(Double.parseDouble(presetsString[1]), .4), 0));
                     break;
                 } catch (Exception e) {
                     System.out.println("Please enter a correct input!");
